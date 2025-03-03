@@ -52,7 +52,7 @@ public class TimeController : MonoBehaviour
         Time.timeScale = m_CurrentDesiredTimescale;
     }
 
-    public void RegisterPauseToken(Component component) //TODO Pull out to TimeSystem
+    public void RegisterPauseToken(Component component)
     {
         m_PauseTokenSet.Add(component);
     }
